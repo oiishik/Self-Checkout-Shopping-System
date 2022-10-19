@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/user_details"
+            android:textColor="@color/design_default_color_primary"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/nameOfUser"
+        android:layout_width="match_parent"
+        android:text="@string/username"
+        android:padding="10dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/emailOfUser"
+        android:layout_width="match_parent"
+        android:text="@string/useremail"
+        android:padding="10dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/numberOfUser"
+        android:layout_width="match_parent"
+        android:text="@string/usernumber"
+        android:padding="10dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/rfidOfUser"
+        android:layout_width="match_parent"
+        android:text="@string/userrfid"
+        android:padding="10dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_height="wrap_content" />
+</LinearLayout>
